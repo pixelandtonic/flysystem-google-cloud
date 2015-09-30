@@ -15,5 +15,5 @@
         "psr-4": {
             "League\\Flysystem\\GoogleCloud\\": "src/"
         }
-    },
+    }
 }
