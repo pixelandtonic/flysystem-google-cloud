@@ -2,17 +2,7 @@
 
 namespace League\Flysystem\GoogleCloud;
 
-use Aws\Common\Exception\MultipartUploadException;
-use Aws\S3\Enum\Group;
-use Aws\S3\Enum\Permission;
-use Aws\S3\Model\MultipartUpload\AbstractTransfer;
-use Aws\S3\Model\MultipartUpload\UploadBuilder;
-use Aws\S3\S3Client;
-use Guzzle\Service\Resource\Model;
-use League\Flysystem\Adapter\AbstractAdapter;
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Config;
-use League\Flysystem\Util;
+use League\Flysystem\AwsS3v2\AwsS3Adapter;
 
 class GoogleCloudAdapter extends AwsS3Adapter
 {
