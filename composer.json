@@ -1,5 +1,5 @@
 {
-    "name": "pixelandtonic/flysystem-google-cloud",
+    "name": "andris-sevcenko/flysystem-google-cloud",
     "description": "Flysystem adapter for Google Cloud using AWS S3 SDK v2",
     "license": "MIT",
     "authors": [
