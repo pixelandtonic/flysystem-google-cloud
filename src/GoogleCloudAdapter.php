@@ -2,7 +2,7 @@
 
 namespace League\Flysystem\GoogleCloud;
 
-use League\Flysystem\AwsS3v2\AwsS3Adapter;
+use League\Flysystem\AwsS3v3\AwsS3Adapter;
 
 class GoogleCloudAdapter extends AwsS3Adapter
 {
